@@ -1,0 +1,5 @@
+func: newFunc(a, b) {
+  var: result = $a * $b
+  ## This is a comment. Lines with comments will be skipped during interpreting.
+  ## The $ operand referances function perameters.
+}
